@@ -461,8 +461,11 @@ nav .fa-solid {
     flex-basis: 100%;
   }
   .about-col-1 {
-    margin-bottom: 30px;
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+    margin-bottom: 20px; /* Adjust margin for spacing */
   }
+
   .about-col-2 {
     font-size: 14px;
   }
